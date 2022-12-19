@@ -107,31 +107,31 @@ html {
 
 <tr>
 <th><font color="#000000;"><label>DOB</label></th>
-<th><input type="date" id="dob"></th>
+<th><input type="date" id="dob" required></th>
 </tr>
 
 <tr>
 <th><font color="#000000;">
 <label>College Name</label></th>
-<th><input type="text" id="collegename" placeholder="Enter your college name" onchange="validatec()"></th>
+<th><input type="text" id="collegename" placeholder="Enter your college name" onchange="validatec()" required></th>
 </tr>
 
 <tr>
 <th><font color="#000000;">
 <label>Course</label></th>
-<th><input type="text" id="course" placeholder="Enter your Course" onchange="validatecourse()"></th>
+<th><input type="text" id="course" placeholder="Enter your Course" onchange="validatecourse()" required></th>
 </tr>
 
 <tr >
 <th><font color="#000000;">
 <label>Phone</label></th>
-<th><input type="number" id="PhoneNo" placeholder="Enter Your Phone no." onchange="validatePhoneNo()" ></th>
+<th><input type="number" id="PhoneNo" placeholder="Enter Your Phone no." onchange="validatePhoneNo()" required></th>
 </tr>
 
 <tr >
 <th><font color="#000000;">
 <label>E-Mail</label></th>
-<th><input type="email" id="Email" placeholder="Enter your email address" onchange="validateEmail()"></th>
+<th><input type="email" id="Email" placeholder="Enter your email address" onchange="validateEmail()" required></th>
 </tr>
 
 <tr >
@@ -159,19 +159,19 @@ html {
 <tr >
 <th><font color="#000000;">
 <label>Password</label></th>
-<th><input type="password" id="password" placeholder="Enter Password" onchange="validatePassword()"></th>
+<th><input type="password" id="password" placeholder="Enter Password" onchange="validatePassword()" required></th>
 </tr>
 
 <tr >
 <th><font color="#000000;">
 <label>Re-enter Password</label></th>
-<th><input type="password" placeholder="Re-enter password"></th>
+<th><input type="password" placeholder="Re-enter password" required></th>
 </tr>
 
 <tr>
 <th><font color="#000000;">
 <label>ID Proof</label></th>
-<th><input type="file" id="proof" name="filename"></th>
+<th><input type="file" id="proof" name="filename" required></th>
 </tr>	
 
 <tr >
@@ -186,7 +186,7 @@ html {
 <tr>
 <th><font color="#000000;">
 <label> I'm not a  Robot</label></th>
-<th><input type="checkbox">
+<th><input type="checkbox" required>
 </th>
 </tr>
 
