@@ -1,0 +1,271 @@
+<html>
+<head>
+<title>Anokha Registration Form</title>
+<link rel="icon" href="https://dt19wmazj2dns.cloudfront.net/wp-content/uploads/bfi_thumb/7005-3-xixq6ks7tdijdh4u0e27eo.jpg" alt="image" style="width:200px;height100px;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+              background-image: url('https://media.istockphoto.com/id/1173905761/video/gray-abstract-minimal-motion-backgrounds-loopable-elements-4k-resolution.jpg?b=1&s=640x640&k=20&c=p_Kcb7Pq-YxgY7_fJHLjaATQbYOKH85cZQ_qzfuRwKc=');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+<center>
+<div align="left">
+<a href="../index.html">
+ <img alt="Home" src="https://cdn-icons-png.flaticon.com/512/2/2144.png" width="50" height="50">
+      </a>
+</div>
+</center>
+<center>
+  <img src="https://1.bp.blogspot.com/-kTnjAosQ2dI/XpbJ1-uUYKI/AAAAAAAADt4/aVylkQVXciQSNCw4Oa2vtIQ4oVK96db-gCLcBGAsYHQ/s1600/Amrita-vishwa-vidyapeetham-color-logo.png"  alt="image" style="width:200px;height100px;">
+  <h1  style="font-family:Algerian"><b>Anokha TechFest 2023</b></h1> 
+  <p style="font-family:Lucida Calligraphy">Intercollege Techno Cultural Fest</p>
+  <p></p>
+</center>
+<form action=">
+<hr style="height:20px;border-width:0;color:gray;background-color:#C0C0C0">
+<h1 align="center"> <font color="black"> <i>Anokha Techno Fest</font></i></h1>
+<table border="1" width="40%" height="600px" align="center" bgcolor="White">
+<!---row1--->
+<tr align="center" bgcolor="white">
+<th colspan="2"><font size="10"> <font color="#FFB6C1;"><i>Registration Form</i></font></th>
+</tr>
+
+<!---row2--->
+<tr>
+<th><font color="#000000;">
+<label >Name</label></th>
+<th><input type="text" id="name" placeholder="Enter your Name" onchange="validate()" required></th>
+</tr>
+
+<tr>
+<th><font color="#000000;"><label>DOB</label></th>
+<th><input type="date" id="dob" required=""></th>
+</tr>
+
+<tr>
+<th><font color="#000000;">
+<label>College Name</label></th>
+<th><input type="text" id="collegename" placeholder="Enter your college name" onchange="validatec()" required></th>
+</tr>
+
+<tr>
+<th><font color="#000000;">
+<label>Course</label></th>
+<th><input type="text" id="course" placeholder="Enter your Course" onchange="validatecourse()" required></th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Phone</label></th>
+<th><input type="number" id="PhoneNo" placeholder="Enter Your Phone no." onchange="validatePhoneNo()" required></th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>E-Mail</label></th>
+<th><input type="email" id="Email" placeholder="Enter your email address" onchange="validateEmail()" required></th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Gender</label></th>
+<th><font color="#FFB6C1;">
+<input type="radio" name="gender">Male 
+<input type="radio" name="gender">Female
+</th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Year</label></th>
+<th>
+<select name="Year">
+<option value="Select">Select year</option>
+<option value="I Year">I Year</option>
+<option value="II Year">II Year</option>
+<option value="III Year">III Year</option>
+<option value="IV Year">IV Year</option>
+</th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Password</label></th>
+<th><input type="password" id="password" placeholder="Enter Password" onchange="validatePassword()" required></th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Re-enter Password</label></th>
+<th><input type="password" placeholder="Re-enter password" required></th>
+</tr>
+
+<tr>
+<th><font color="#000000;">
+<label>ID Proof</label></th>
+<th><input type="file" id="proof" name="filename" required></th>
+</tr>
+
+<tr >
+<th><font color="#000000;">
+<label>Accomodation</label></th>
+<th><font color="#FFB6C1;">
+<input type="radio">Yes
+<input type="radio">No
+</th>
+</tr>
+
+<tr>
+<th><font color="#000000;">
+<label> I'm not a  Robot</label></th>
+<th><input type="checkbox">
+</th>
+</tr>
+
+<tr align="center" bgcolor="White">
+<th colspan="2"><button type="submit"> <a href="C:\Users\Govindasamy N\Desktop\Anokha 2023\html\aboutanokha.html"> Submit </a></button>
+
+</th>
+</tr>
+
+
+</table>
+
+<script>
+function validate() {
+	
+	var name = document.getElementById("name").value;
+        if(name == null || name == "")
+{
+window.alert("blank space");
+document.getElementById("name").focus()
+}
+console.log("name:" + name);
+}	
+
+function validatec() {
+var regex = /^[A-Za-z0-9_]+$/
+var course = regex.test (document.getElementById("collegename").value);
+if(!collegename){
+window.alert("No special character");
+document.getElementById("collegename").focus()
+}
+}	
+
+function validatecourse(){
+var regex = /^[A-Za-z0-9_]+$/
+var course = regex.test (document.getElementById("course").value);
+if(!course){
+window.alert("No special character");
+document.getElementById("course").focus()
+}
+}
+
+function validatePhoneNo() {
+      let PhoneNo = document.getElementById("PhoneNo").value;
+      if(!(PhoneNo.length==10))
+{
+window.alert("Enter valid Phone Number");
+document.getElementById("PhoneNo").focus()
+}
+}
+	
+function validateEmail(){
+var regex = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+var Email = regex.test (document.getElementById("Email").value);
+if(!Email){
+window.alert("Enter valid email id");
+document.getElementById("Email").focus()
+}
+}	
+
+function validatePassword() {
+	let Pass = document.getElementById("password").value;
+                 var Pwd= "^(?=.[a-z])(?=.[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$";
+if(!Pass.match(Pwd))
+{
+window.alert("Enter strong password");
+document.getElementById("password").focus()
+}
+}
+var uploadField = document.getElementById("proof");
+
+uploadField.onchange = function() {
+    if(this.files[0].size > 2097152){
+       alert("File is too big!");
+       this.value = "";
+    };
+};
+
+</script>
+
+</body>
+</html>
